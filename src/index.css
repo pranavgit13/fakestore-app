@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body.light {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+body.dark .card {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+body.dark .btn-outline-secondary {
+  color: #fff;
+  border-color: #fff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 100vh;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+
